@@ -88,11 +88,25 @@ img {
     padding: 1rem 0;
 }
 .footer ul li{
-    display: inline;
+    display: inline-block;
     padding: 0 1rem;
     margin-top: 1rem;
 }
 
 .footer ul li a{
     color: white;
+}
+
+.hover::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width .3s;
+}
+
+.hover:hover::after{
+    width: 108%;
+    transition: width .3s;
 }

@@ -52,7 +52,7 @@ img {
     padding: 0 1rem;
 }
 
-.hover-link::after{
+.hover-link::after {
     content: '';
     display: block;
     width: 0;
@@ -61,16 +61,18 @@ img {
     transition: width .3s;
 }
 
-.hover-link:hover:after{
+.hover-link:hover:after {
     width: 115%;
     transition: width .3s;
 }
 
-.section{
-    padding: 2rem;
+.heading-div {
+    text-align: center;
 }
 
-.footer{
+
+
+.footer {
     background-color: var(--primary-color);
     text-align: center;
     padding: 4rem;
@@ -79,25 +81,26 @@ img {
     font-size: 20px;
 }
 
-.footer div{
+.footer div {
     font-weight: bold;
     font-size: large;
 }
 
-.footer ul{
+.footer ul {
     padding: 1rem 0;
 }
-.footer ul li{
+
+.footer ul li {
     display: inline-block;
     padding: 0 1rem;
     margin-top: 1rem;
 }
 
-.footer ul li a{
+.footer ul li a {
     color: white;
 }
 
-.hover::after{
+.hover::after {
     content: '';
     display: block;
     width: 0;
@@ -106,7 +109,7 @@ img {
     transition: width .3s;
 }
 
-.hover:hover::after{
+.hover:hover::after {
     width: 108%;
     transition: width .3s;
 }
